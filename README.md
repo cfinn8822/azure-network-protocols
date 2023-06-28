@@ -37,13 +37,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - If "Resource Group" is already listed on the front page, then you can simply click on it, rather than manually searching.
  - Click "Create" then name Resource Group whatever you want to but for this example use (VMlab)
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/59g5dAz.png.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
  - In the Search Box at the top header, type and select "Virtual machines".
    - If "Virtual machines" is already listed on the front page, then you can simply click on it, rather than manually searching.
  - Click "Create", then select "Azure virtual machine".
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/q7smLsM.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
  - Name your Virtual Machine anyway you want for this example use (VM1).
  - Change the Region that best suites your location  for this example uses ( (US) West US 3).
@@ -54,8 +54,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - IF there is a Licensing Checkbox at the end, make sure that is CHECKED!
  - If Validation passed, click "Create".
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pyRIFyC.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/M5IYZQN.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 Essentially repeat the same steps for creating the other Virtual Machine (VM2), but using Ubuntu (Linux):
 
@@ -66,15 +66,15 @@ Essentially repeat the same steps for creating the other Virtual Machine (VM2), 
   - Change the Authentication type to "Password", and create any username but for this example use (labuser).
   - Once done, press "Next" until you reach "Networking" (or simply click the Networking tab").
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xpNePyM.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jAdjy6d.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
   - Make sure that the Virtual Network is setup the same as Windows (VM1), for this example were using (VM1-vnet).
   - Set the Public IP to whatever it has automatically assigned to you (might have to confirm the selection).
   - Then press "Review + create".
   - If Validation passed, click "Create".
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Xd4M5jd.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 2)Connecting to VM1 and Installing Wireshark
 
@@ -85,22 +85,22 @@ Essentially repeat the same steps for creating the other Virtual Machine (VM2), 
  - When the Certificate Error prompt appears, just click "Yes".
  - As it boots up, you can disable all privacy settings when prompted, then hit "Accept".
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/M8BtMwY.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xXiiQo4.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
  - On VM1, open Microsoft Edge (or any internet browser), then go to the Wireshark download page.
    - You can simply Google Search it, or type "www.wireshark.org/download.html"
  - Click on "Windows Intel Installer" to start downloading the executable.
  - Once downloaded, click "Open file" to run the .exe file (you can also find this inside your Downloads folder within File Explorer).
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s5OmrOY.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
  - The installation prompt will appear, hit "Next".
  - When the installation prompt appears, leave everything by default and keep pressing "Next" until you start Installing.
  - If any agreement prompts appear during installation, just hit "I Agree" and click install (without checking anything).
  - After all installations are complete, click "Finish".
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LOl5Nrs.png.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 3)Observe ICMP Traffic using Wireshark
 
